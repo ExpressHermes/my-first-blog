@@ -9,7 +9,9 @@
 
           <div>
           	<p><i>
-          		Hello Visitor. My name is Shivam. I am an engineering student currently studying in Institute of Engineering and Techonology(IET),Lucknow pursuing my B.Tech Degree for Computer Science and Engineering. This blog is just a testing blog. In the near future I will deploy a more well planned blog. Right now I have given link to a blog which my friend writes, abut his personel veiws, his life experiences etc. Do visit it. Its a good blog.
+          		Hello Visitor. My name is Shivam. I am an engineering student currently studying in Institute of Engineering and Techonology(IET),Lucknow pursuing my B.Tech Degree for Computer Science and Engineering. This blog is just a testing blog. In the near future I will deploy a more well planned blog. Right now I have given link to a blog which my friend writes, about his personal veiws, his life experiences etc. Do visit it. Its a good blog.
+
+          		P.S.- There are some posts in Time Travel. Obviously I did not write them they are just something I wanted my post.Read them if you want or just ignore them. ;) 
           	   </i>
           	</p>
           </div>
@@ -29,13 +31,16 @@
           	   </i>
           	</p>
           </div>
+          <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+           
+          {% for post in posts %}
 
           <div>
-          	<h3><a href="https://lifestyle-tech-experience.blogspot.com/2019/02/the-sad-reality.html">THE SAD REALITY.....</a></h3>
-          	<p><i>
-          		This is about terrorism, a problem which has been a long term problem not only for India but for the whole world.It is a well written post do read it once.
-          	  </i>
-            </p>
-          </div> 
+                <p>published:{{ post.published__date }}</p>
+                <h3><a href="">{{ post.title }}</a></h3>
+                <p>{{ post.text|linebreaksbr }}</p>
+          </div>
+
+          {% endfor %}
 </body>
 </html>

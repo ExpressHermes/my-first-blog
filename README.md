@@ -9,9 +9,9 @@ To see the blog click [here](http://shivamyadav.pythonanywhere.com/)
 ## Requirements
 * Python3 should be installed on your system. For installing Python3 
 
-1.Open Terminal.
+1. Open Terminal.
 
-2.Type following commands
+2. Type following commands
    ```
    sudo-apt get update
    sudo-apt get install python3
@@ -22,8 +22,9 @@ To see the blog click [here](http://shivamyadav.pythonanywhere.com/)
  
 #### For Linux:
 
-Open Terminal.
-Type following commands
+1. Open Terminal.
+
+2. Type following commands
   ```
         
     cd path/name
@@ -37,8 +38,10 @@ Replace name with the name with which the code has been downloaded.
  
 #### For Windows
 
-Open Command Prompt.
-Type following commands.
+
+1. Open Command Prompt.
+
+2. Type following commands.
    ```
    
    cd path/name

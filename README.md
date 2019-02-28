@@ -8,7 +8,9 @@ To see the blog click [here](http://shivamyadav.pythonanywhere.com/)
 
 ## Requirements
 * Python3 should be installed on your system. For installing Python3 
+
 1.Open Terminal.
+
 2.Type following commands
    ```
    sudo-apt get update

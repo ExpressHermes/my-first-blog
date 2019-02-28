@@ -19,8 +19,6 @@ Type following commands.
         source myvenv\bin\activate
         python manage.py runserver 
         
-       ```
-       ```
 #### For Windows
 
 Open Command Prompt.
@@ -32,9 +30,6 @@ Type following commands.
         myvenv\Scripts\activate
         python manage.py runserver 
         
-       ```
-       ```
- 
 You will see a link something like https://127.0.0.1/
 Open it in your web browser. You will see the blog page. This blog is running in your system locally. 
 

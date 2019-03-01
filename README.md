@@ -13,8 +13,10 @@ To see the blog click [here](http://shivamyadav.pythonanywhere.com/)
 
 2. Type following commands
    ```
+   
    sudo-apt get update
    sudo-apt get install python3
+   
    
    ```
    
@@ -28,7 +30,7 @@ To see the blog click [here](http://shivamyadav.pythonanywhere.com/)
   ```
         
     cd path/name
-    source myvenv\bin\activate
+    source myvenv/bin/activate
     python manage.py runserver 
         
   ```
@@ -42,13 +44,13 @@ Replace name with the name with which the code has been downloaded.
 1. Open Command Prompt.
 
 2. Type following commands.
-   ```
+  ```
    
    cd path/name
    myvenv\Scripts\activate
    python manage.py runserver 
    
-   ``` 
+  ``` 
         
 Replace path with the file path where the code has been downloaded in your system.
 Replace name with the name with which the code has been downloaded.
